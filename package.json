@@ -1,0 +1,19 @@
+{
+  "name": "node-mailer-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "node-mailer"
+  ],
+  "author": "Happy Bhesdadiya",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "nodemailer": "^6.5.0"
+  }
+}
