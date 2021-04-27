@@ -2,7 +2,17 @@ require('dotenv').config();
 
 const nodemailer = require('nodemailer');
 
-// Sending Email with Gmail
+// --------------  Sending Email with Mailtrap  -------------------
+// let transport = nodemailer.createTransport({
+//   host: 'smtp.mailtrap.io',
+//   port: 2525,
+//   auth: {
+//      user: process.env.EMAIL_USERNAME,
+//      pass: process.env.EMAIL_PASSWORD
+//   }
+// });
+
+// --------------  Sending Email with Gmail  -------------------
 let transport = nodemailer.createTransport({
   host: "smtp.gmail.com",
   port: 465,
