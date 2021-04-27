@@ -1,6 +1,6 @@
 
 
-# Send email with Gmail - Nodemailer
+# Send Email with Gmail using Nodemailer
 
 How to send an email with your personal gmail account using Nodemailer
 
