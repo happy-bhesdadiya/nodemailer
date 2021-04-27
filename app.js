@@ -23,8 +23,8 @@ let transport = nodemailer.createTransport({
 
 // Sending an HTML Email with Attachment
 const mailOptions = {
-  from: 'happypatel95370@bacancy.com', // Sender address
-  to: 'happy.bhesdadiya@bacancy.com',  // List of recipients
+  from: 'sender@gmail.com', // Sender address
+  to: 'receiver@gmail.com',  // List of recipients
   subject: 'Node Mailer', // Subject line
   html: '<h1 style="color:#ff6600;">Hello People!, Welcome to Bacancy!</h1>',
   attachments: [

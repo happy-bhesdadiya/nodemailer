@@ -37,8 +37,8 @@ let transport = nodemailer.createTransport({
 Define a `mailOptions` variable. It should contains information that your receiver should know about it. 
 ```
 const mailOptions = {
-  from: 'happypatel95370@bacancy.com', // Sender address
-  to: 'happy.bhesdadiya@bacancy.com',  // List of recipients
+  from: 'sender@gmail.com', // Sender address
+  to: 'receiver@gmail.com',  // List of recipients
   subject: 'Node Mailer', // Subject line
   text: 'Hello People!, Welcome to Bacancy!', // Plain text body
 };
